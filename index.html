@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup and Login Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container"> <!-- main container that wrap all the data -->
+        <div class="formbox"> <!-- In this all the heading,underline,inputfield,paragraph and Buttons Exist-->
+            <h1 id="title">SignUp</h1><!-- Signup text top of the form-->
+            <div id="underline"></div> <!-- underline Div that is used below the signup and signin-->
+
+            <form> <!-- Form Star from there -->
+                <div class="inputgroup"> <!-- All the input are wrap in this  -->
+                    <div class="inputfield " id="nameField">
+                        <i class="fa-solid fa-user"></i> <!-- icon used by Font awsome -->
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputfield">
+                        <i class="fa-solid fa-at"></i><!-- icon used by Font awsome -->
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputfield">
+                        <i class="fa-solid fa-key"></i><!-- icon used by Font awsome -->
+                        <input type="password" placeholder="Password">
+                    </div>
+
+                    <p id="text">password suggestion <a href="#"> Click Here</a></p>
+                    <!-- paragraph text that show below the input fields -->
+                    <div class="btn"> <!-- Button div-->
+                        <button type="button" id="signupBtn">SignUp</button>
+                        <button type="button" class="disable" id="signinBtn">SignIn</button>
+
+                    </div> <!-- End Button Div -->
+
+                </div> <!-- End inputGroup  Div -->
+            </form> <!-- End Form Here -->
+        </div> <!-- End form box div-->
+    </div> <!-- End container  Div -->
+
+
+    <script src="Script.js">
+     
+    </script>
+
+</body>
+
+</html>
